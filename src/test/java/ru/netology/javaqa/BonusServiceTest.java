@@ -22,7 +22,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    public  void shouldCalculateForRegisteredAndOverLimit() {
+    public void shouldCalculateForRegisteredAndOverLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:

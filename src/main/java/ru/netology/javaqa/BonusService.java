@@ -1,5 +1,6 @@
 package ru.netology.javaqa;
-public  class BonusService {
+
+public class BonusService {
     public long calculate(long amount, boolean registered) {
         int percent = registered ? 3 : 1;
         long bonus = amount * percent / 100;
