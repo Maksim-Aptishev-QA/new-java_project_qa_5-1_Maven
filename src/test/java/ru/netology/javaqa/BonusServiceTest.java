@@ -44,7 +44,7 @@ public class BonusServiceTest {
         // подготавливаем данные:
         long amount = 100;
         boolean registered = true;
-        long expected = 3;
+        long expected = 3   ;
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
